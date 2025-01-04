@@ -47,6 +47,7 @@ export default function ContactUs() {
                     <Text>MyApp © 2024</Text>
                  </View>
                </View>  
+               </ScrollView>
             </KeyboardAvoidingView>
         </PaperProvider>
         
