@@ -18,21 +18,21 @@ This project is a simple mobile application built using React Native and React N
 
 ## Features
 
-**Multiple Screens**: The app includes three main screens: Home, Contact Us, and About Us. Each screen displays different content and functionality.
+- **Multiple Screens**: The app includes three main screens: Home, Contact Us, and About Us. Each screen displays different content and functionality.
 
-**Navigation**: Users can navigate between screens using React Navigation's stack navigation. Buttons are provided to move between the screens.
+- **Navigation**: Users can navigate between screens using React Navigation's stack navigation. Buttons are provided to move between the screens.
 
-**Form Handling in Contact Us**: The Contact Us screen allows users to input their details, including name, email, phone number, and a message. The app updates the state using the useState hook for each input field.
+- **Form Handling in Contact Us**: The Contact Us screen allows users to input their details, including name, email, phone number, and a message. The app updates the state using the useState hook for each input field.
 
-**Responsive Design**: The app uses KeyboardAvoidingView to adjust the UI when the keyboard is displayed, ensuring a smooth user experience when interacting with text fields.
+- **Responsive Design**: The app uses KeyboardAvoidingView to adjust the UI when the keyboard is displayed, ensuring a smooth user experience when interacting with text fields.
 
-**UI Components**: The app uses React Native Paper components such as Text, TextInput, Button, and Divider to create a clean, consistent UI.
+- **UI Components**: The app uses React Native Paper components such as Text, TextInput, Button, and Divider to create a clean, consistent UI.
 
-**ScrollView**: A ScrollView is used on multiple screens (Home, Contact Us, and About Us) to ensure that content can be scrolled if it exceeds the available screen space.
+- **ScrollView**: A ScrollView is used on multiple screens (Home, Contact Us, and About Us) to ensure that content can be scrolled if it exceeds the available screen space.
 
-**Cross-Platform Compatibility**: The app is compatible with both iOS and Android, with platform-specific adjustments made using the Platform API (e.g., adjusting the keyboard behavior).
+- **Cross-Platform Compatibility**: The app is compatible with both iOS and Android, with platform-specific adjustments made using the Platform API (e.g., adjusting the keyboard behavior).
 
-**Footer**: Each screen includes a footer with the text "MyApp © 2024," providing a simple branding element at the bottom.
+- **Footer**: Each screen includes a footer with the text "MyApp © 2024," providing a simple branding element at the bottom.
 
 
 ## Technologies Used
@@ -52,6 +52,8 @@ This project is a simple mobile application built using React Native and React N
 
 ## Project Structure
 
+```
+
 ├── components
 │   ├── ContactUs.js       # contactus component
 │   ├── AboutUs.js         # About Us component
@@ -62,7 +64,7 @@ This project is a simple mobile application built using React Native and React N
 ├── package.json           # Project configuration
 ├── README.md              # Documentation
 
-
+```
 
 ## How to Run
 
