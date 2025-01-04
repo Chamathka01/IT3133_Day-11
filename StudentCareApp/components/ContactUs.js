@@ -11,7 +11,7 @@ export default function ContactUs() {
             <KeyboardAvoidingView
                 behavior={Platform.OS === 'ios' ? 'padding' : 'height'} style={styles.keyboardAvoidingView}
             >
-             <KeyboardAvoidingView>
+             <ScrollView contentContainerStyle={styles.scrollView}>
             <View style={styles.container}>
                  <View style={styles.header}>
                      <Text variant="headlineLarge">Contact Us</Text>
@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     },
     scrollView: {
         flexGrow: 1, 
+    },    
     keyboardAvoidingView: {
         flex: 1,
       }
