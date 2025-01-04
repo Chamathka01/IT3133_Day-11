@@ -4,6 +4,7 @@ export default function Home() {
     const navigation = useNavigation();
     return(
         <PaperProvider>
+              <ScrollView contentContainerStyle={styles.scrollView}></ScrollView>
         <Text variant="headlineLarge">Headline Large</Text>
         <Divider />
         <Text variant="bodyMedium" style={styles.body}>
@@ -20,6 +21,7 @@ export default function Home() {
                         Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.
 
                     </Text>
+                    </ScrollView>
                     </PaperProvider>
     );
 }
