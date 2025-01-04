@@ -1,5 +1,7 @@
 import { useNavigation } from '@react-navigation/native';
 import { useState } from 'react';
+import { StyleSheet, View, ScrollView, KeyboardAvoidingView } from 'react-native';
+import { PaperProvider, Text, Divider, TextInput, Button } from 'react-native-paper';
 export default function ContactUs() {
     const [name, setName] = useState();
     const navigation = useNavigation();
@@ -36,6 +38,10 @@ export default function ContactUs() {
                  </View>
                  <Text>{name}</Text>
                  </View>
+                 <View style={styles.footer}>
+                    <Text>MyApp © 2024</Text>
+                 </View>
+               </View>  
         </PaperProvider>
         
     );
