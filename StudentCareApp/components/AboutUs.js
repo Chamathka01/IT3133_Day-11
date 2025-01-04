@@ -19,6 +19,8 @@ export default function AboutUs() {
             <Button icon="camera" mode="outlined" onPress={()=>navigation.push('aboutus')}>
                  call again
             </Button>
+            <Button mode="outlined" onPress={() => navigation.popTo('home')}>Go to Home</Button>
+            <Button  mode="outlined" onPress={() => navigation.popToTop()}>Go to Top Screen</Button>
         </PaperProvider>
     );
 }
