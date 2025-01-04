@@ -1,5 +1,7 @@
+import { useNavigation } from '@react-navigation/native';
 import { PaperProvider, Text, Divider, Button } from 'react-native-paper';
 export default function Home() {
+    const navigation = useNavigation();
     return(
         <PaperProvider>
         <Text variant="headlineLarge">Headline Large</Text>
